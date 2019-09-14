@@ -32,7 +32,8 @@ void InOrder(Tree T){
 bool isCompleteTree(Tree T){
 	if(T==NULL)
 		return false;
-	
+	else if(T->lchild==NULL && T->rchild==NULL)
+		return true;
 	else{
 		queue<Tree> Q;
 		Q.push(T);
