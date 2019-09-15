@@ -46,7 +46,7 @@ bool isCompleteTree(Tree T){
 			}
 			else if(p->lchild==NULL && p->rchild)
 				return false;
-			else if(p->lchild && p->rchild==NULL){
+			else if((p->lchild && p->rchild==NULL) || p->lchild==NULL && p->rchild==NULL){
 				if(Q.empty())
 					return false;
 				else{

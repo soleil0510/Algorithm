@@ -1,0 +1,6 @@
+Ç°5¸öµ¥´Ê£º
+dog	6
+apple	6
+cat	4
+banana	4
+pear	3
